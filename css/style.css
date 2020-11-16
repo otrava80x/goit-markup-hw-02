@@ -1,0 +1,77 @@
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+
+/* Навигация */
+
+.main-nav {
+  background-color: #ffffff;
+}
+.main-list a {
+  color: #212121;
+}
+.main-nav a.current {
+  color: #2196f3;
+}
+.mail-contacts {
+  color: #212121;
+}
+.tel-contacts {
+  color: #757575;
+}
+
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-description h1 {
+  color: #ffffff;
+}
+.order-servise a {
+  color: #2196f3;
+}
+
+/* Приимущества */
+.advantages {
+  background-color: #ffffff;
+}
+.advantages-list h2 {
+  color: #212121;
+}
+.advantages-list p {
+  color: #757575;
+}
+.works p {
+  color: #212121;
+}
+/* Наша команда */
+.our-team {
+  background: #f5f4fa;
+}
+
+.our-team h2 {
+  color: #212121;
+}
+.team-list h3 {
+  color: #212121;
+}
+.team-list p {
+  color: #757575;
+}
+
+/* Футер */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-address p {
+  color: #ffffff;
+}
+.footer-address a {
+  color: rgba(255, 255, 255, 0.6);
+}

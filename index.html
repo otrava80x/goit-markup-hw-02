@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>WebStudio</title>
 </head>
 <body>
   <header>
       <a><img src="./images/WebStudio.svg" alt="logo"></a>
-      <nav>
-          <ul>
-              <li><a href="">Студия</a></li>
+      <nav class="main-nav">
+          <ul class="main-list">
+              <li><a href="" class="current">Студия</a></li>
               <li><a href="">Портфолио</a></li>
               <li><a href="">Контакты</a></li>
           </ul>
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
-        </ul>
+         <ul>
+            <li><a href="" class="mail-contacts">info@devstudio.com</a></li>
+            <li><a href="" class="tel-contacts">+38 096 111 11 11</a></li>
+         </ul>
       </nav>
   </header>  
  <main>
-        <section>
-            <div>
+        <section class="hero">
+            <div class="hero-description">
                 <h1>Эффективные решения для вашего бизнеса</h1>
             </div>
-          <ul>
-            <li><button>Заказать услугу</button></li>
-          </ul>
-     </section>
-    <section>
+            <div class="order-servise">
+              <ul>
+                <li> <a href="">Заказать услугу</a></li>
+              </ul>
+            </div>
+        </section>
+    <section class="advantages">
+        <div class="advantages-list">
         <ul>
             <li>
                 <h2>Внимание к деталям</h2>
@@ -48,16 +52,17 @@
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+        </div>
+            <div class="works">
+              <h2>Чем мы занимаемся</h2>
+                <img src="./images/img.jpg" alt="img1">
+                <img src="./images/img1.jpg" alt="img2">
+              <img src="./images/img2.jpg" alt="img3">
+            </div>
     </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <img src="./images/img.jpg" alt="img1">
-            <img src="./images/img1.jpg" alt="img2">
-            <img src="./images/img2.jpg" alt="img3">
-        </section>
-        <section>
+        <section class="our-team">
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="team-list">
                 <li>
                     <img src="./images/img4.svg" alt="Игорь Демьяненко">
                     <div>
@@ -89,12 +94,12 @@
             </ul>
         </section>
  </main>
-  <footer>
-      <div>
-          <h2><img src="./images/WebStudio.svg" alt="logo"></h2>
+  <footer class="footer">
+      <div class="footer-list">
+          <h2><img src="./images/WebStudio@2x.png" alt="logo"></h2>
           <address>
-              <ul>
-                  <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+              <ul class="footer-address">
+                  <li><p>г. Киев, пр-т Леси Украинки, 26</p>
                   <li><a href="#">info@example.com</a></li>
                   <li><a href="#">+38 099 111 11 11</a></li>
               </ul>
